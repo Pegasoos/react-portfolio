@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route} from 'react-router-dom';
 import Contact from './components/pages/Contact';
@@ -16,6 +17,7 @@ function App() {
       <Route path = '/portfolio' component  = {Portfolio}/>
    </Routes>
    <NavBar />
+    <Footer/>
     </div>
   );
 }

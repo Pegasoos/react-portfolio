@@ -1,9 +1,8 @@
 import React from 'react';
- import { Link, useLocation } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
  import { Nav } from 'react-bootstrap';
 
 function NavBar(){
-    const location = useLocation();
 
     return(
     <Nav>
