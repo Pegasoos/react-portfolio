@@ -1,0 +1,98 @@
+html {
+    position:relative;
+
+    min-height: 100%;
+}
+body {
+    background: rgb(2,24,43);
+    background: radial-gradient(circle, rgba(2,24,43,1) 0%, rgba(24,16,55,0.9836309523809523) 41%, rgba(7,7,102,1) 100%);
+}
+
+h1 {
+    color:hsl(208, 91%, 9%) ;
+    font-family: Spartan;
+}
+h2{
+    font-family: Libre Baskerville;
+}
+p {
+    font-family: Libre Baskerville;
+}
+p a{
+    text-decoration: underline;
+}
+.fa-file-pdf{
+    font-size:20px;
+}
+/*Start Navbar Style*/
+.navbar{
+    background-color: #2E2935;
+}
+#logo {
+    font-family: Spartan;
+    font-size: 22px;
+    color:#E7E7EE;
+    background-color:hsl(208, 91%, 9%);
+}
+#navbarNavDropdown{
+    font-family: Libre Baskerville; 
+}
+/*End Navbar Style*/
+
+/*Content Block Styles*/
+.block {
+    background-color: whitesmoke;
+    margin-top: 80px;
+    padding: 20px;
+}
+/*End Content Block Style*/
+
+/*Portfolio Styles*/
+.portblock {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+/*End Portfolio Styles*/
+
+/*Contact Form Style*/
+.formsize {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.conpad {
+    padding-top: 10px;
+}
+.submit {
+padding: 15px 30px;
+font-size: 16px;
+color:whitesmoke;
+background-color: hsl(208, 91%, 9%);
+border: none;
+}
+.submit:hover {
+    opacity: 70%;
+}
+/*End Contact Form Styles
+
+/*Start Footer Style*/
+.footer-strip {
+    /* Box-model */
+    height: 4px;
+    padding-top: 3px;
+    /* Visual */
+    background-color: #A0A0BB;
+  }
+
+.footer {
+position: fixed;
+bottom: 0;
+background-color:hsl(208, 91%, 9%);
+width: 100%;
+color:#E7E7EE;
+}
+/*End Footer Style*/
+.portfolio-image{
+    height: 340px;
+    width: 350px;
+}
