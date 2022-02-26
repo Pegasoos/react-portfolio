@@ -19,7 +19,7 @@ function Home(){
                 I hope to use the Linguistics skills I learned at Florida Atlantic University to parse the many complextities of coding languages and contruct web sites and programs that help people!
             </p>
             <p>
-               My Resume: <a href="assets/Anthony, Nathan-Web Developer Resume.pdf"> <i class="fas fa-file-pdf"></i></a>.
+               My Resume: <a href="assets/Anthony, Nathan-Web Developer Resume.pdf"> <i className="fas fa-file-pdf"></i></a>.
             </p>
             <p>
               Though I am just starting out, I do have several projects up on my <a href="https://github.com/Pegasoos">Github</a>. 

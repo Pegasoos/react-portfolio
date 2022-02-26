@@ -12,17 +12,17 @@ function NavBar(){
         <div>
             <Nav.Item>
                 <Link to = '/'>
-                <i class="fas fa-id-badge"></i> Profile
+                <i className="fas fa-id-badge"></i> Profile
                 </Link>
             </Nav.Item>
             <Nav.Item>
                 <Link to = 'contact'>   
-                <i class="fas fa-envelope"></i> Contact
+                <i className="fas fa-envelope"></i> Contact
                 </Link>
             </Nav.Item>
             <Nav.Item>
                 <Link to = 'portfolio'>
-                <i class="fas fa-code"></i> Portfolio
+                <i className="fas fa-code"></i> Portfolio
                 </Link>
             </Nav.Item>
         </div>

@@ -6,8 +6,16 @@ html {
 body {
     background: rgb(2,24,43);
     background: radial-gradient(circle, rgba(2,24,43,1) 0%, rgba(24,16,55,0.9836309523809523) 41%, rgba(7,7,102,1) 100%);
+    margin:0;
+    padding:0;
 }
-
+canvas {
+    display:block;
+    position: fixed;
+}
+.main{
+    position:absolute;
+}
 h1 {
     color:hsl(208, 91%, 9%) ;
     font-family: Spartan;
@@ -28,6 +36,32 @@ p a{
 .navbar{
     background-color: #2E2935;
 }
+a {
+    text-decoration: none;
+}
+.nav-item{
+    display:inline-block;
+    position: relative;
+    white-space: nowrap;
+    letter-spacing: .055em;
+    padding-bottom: 0.5em;
+}
+.nav-item:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: darkslategrey;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+.nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 #logo {
     font-family: Spartan;
     font-size: 22px;
