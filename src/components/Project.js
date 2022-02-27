@@ -10,7 +10,7 @@ function Project(props){
         </figure>
         </a>
         <p>
-          <a href={props.github}><i className="fab fa-github"></i> Github Repository</a>
+          <a href={props.github} className = "git-link"><i className="fab fa-github"></i> Github Repository</a>
         </p>
       </div>
       )
