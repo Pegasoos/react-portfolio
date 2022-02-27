@@ -15,6 +15,7 @@ canvas {
 }
 .main{
     position:absolute;
+    padding-bottom: 4em;
 }
 h1 {
     color:hsl(208, 91%, 9%) ;
@@ -34,10 +35,17 @@ p a{
 }
 /*Start Navbar Style*/
 .navbar{
-    background-color: #2E2935;
+    background-color: black;
+    width:100%;
+    top:0;
+    position:fixed;
+    padding-left: 4.3em;
 }
 a {
     text-decoration: none;
+}
+.collapse{
+    margin-left: 50em;
 }
 .nav-item{
     display:inline-block;
@@ -45,6 +53,8 @@ a {
     white-space: nowrap;
     letter-spacing: .055em;
     padding-bottom: 0.5em;
+    color:#0d47a1;
+    margin:0em 0.8em 0em 0.8em;
 }
 .nav-item:after{
     content: '';
@@ -54,7 +64,7 @@ a {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: darkslategrey;
+    background-color: #0d47a1;
     transform-origin: bottom left;
     transition: transform 0.25s ease-out;
 }
@@ -66,7 +76,7 @@ a {
     font-family: Spartan;
     font-size: 22px;
     color:#E7E7EE;
-    background-color:hsl(208, 91%, 9%);
+    background-color:#0d47a1;
 }
 #navbarNavDropdown{
     font-family: Libre Baskerville; 
@@ -82,9 +92,16 @@ a {
 /*End Content Block Style*/
 
 /*Portfolio Styles*/
-.portblock {
+.port-block {
     background-color: whitesmoke;
-    padding: 20px;
+    margin-top: 1em;
+}
+figure{
+    width:auto;
+    transition:transform 1s;
+}
+figure:hover{
+    transform:scale(1.1,1.1)
 }
 /*End Portfolio Styles*/
 
@@ -121,7 +138,7 @@ border: none;
 .footer {
 position: fixed;
 bottom: 0;
-background-color:hsl(208, 91%, 9%);
+background-color:/*hsl(208, 91%, 9%)*/#083a85;
 width: 100%;
 color:#E7E7EE;
 }

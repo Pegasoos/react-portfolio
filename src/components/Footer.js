@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return(
-        <footer>
+        <footer className ="footer">
             <div className = 'footer-strip'></div>
             <p className="text-muted text-muted-footer text-center">
             © 2021
