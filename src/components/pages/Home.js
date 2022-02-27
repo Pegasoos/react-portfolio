@@ -30,7 +30,9 @@ function Home(){
             <p>
               If you like what you see, you can reach me at definitelyisntme@gmail.com or by phone at 863-212-4962.
             </p>
-          </div></div></article>
+          </div>
+          </div>
+          </article>
           </div>
     )
 }

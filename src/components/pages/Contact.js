@@ -2,12 +2,16 @@ import React from 'react';
 
 function Contact(){
     return(
-<main className ="container">    
+
+<div className ="container">   
+<div class = "con-block">
   <article className="block rounded">
+<div class = "row">   
   <h1>
     Contact
   </h1> 
 <hr></hr>
+</div>
   <form action="https://formsubmit.co/fb1081e4e60cc6ebed200a778ffeac99" method="POST">
   <p>
     Name
@@ -30,7 +34,9 @@ function Contact(){
     </div>
   </form>
   </article>
-</main>  
+  </div>
+</div>  
+
     )
 }
 

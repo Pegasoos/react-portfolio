@@ -31,6 +31,10 @@ p a{
 .fa-file-pdf{
     font-size:20px;
 }
+.pad-block{
+    width:110em;
+    height:auto;
+}
 /*Start Navbar Style*/
 .navbar{
     background-color: black;
@@ -87,9 +91,16 @@ a {
     margin-top: 80px;
     padding: 20px;
 }
+.con-block{
+    width:80em;
+    height:auto;
+}
 /*End Content Block Style*/
 
 /*Portfolio Styles*/
+.port-heading{
+    margin-left:2em;
+}
 .port-block {
     background-color: whitesmoke;
     margin-top: 1em;
@@ -104,6 +115,7 @@ figure:hover{
 .git-link{
     text-decoration: none;
     font-size: 1.2em;
+    margin-left: 7.3em;
 }
 /*End Portfolio Styles*/
 
