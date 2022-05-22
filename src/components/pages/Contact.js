@@ -4,9 +4,9 @@ function Contact(){
     return(
 
 <div className ="container">   
-<div class = "con-block">
+<div className = "con-block">
   <article className="block rounded">
-<div class = "row">   
+<div className = "row">   
   <h1>
     Contact
   </h1> 
@@ -27,7 +27,7 @@ function Contact(){
     Message
   </p>
     <textarea placeholder="Message" name = "message" className="formsize" required></textarea>
-    <div class="conpad">
+    <div className="conpad">
     <button className="submit">
       Submit
     </button>

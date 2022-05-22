@@ -9,7 +9,7 @@ import quizLogo from '../../assets/images/portfolio_quiz.gif';
 
 function Portfolio(){
 return(
-<div class = "pad-block">
+<div className = "pad-block">
 <div className = "container">
   <section className="row">
     <div className="col-md-8 block rounded">

@@ -29,6 +29,11 @@ function NavBar(){
                 <i className="fas fa-code"></i> Portfolio
                 </Link>
             </Nav.Item>
+            <Nav.Item>
+                <Link to = 'resume'>
+                    My Resume <i className="fas fa-file-pdf"></i>
+                </Link>
+            </Nav.Item>
         </ul>
         </div> 
     </Nav>
