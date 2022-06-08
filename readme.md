@@ -18,7 +18,7 @@
 ## Installation
 ### No installation required. Just visit the url.
 ## Usage
-### Users can visit the website here: [Placeholder]
+### Users can visit the website here: https://pegasoos.github.io/react-portfolio/#/
 ## Contributing
 ### None.
 ## Tests
